@@ -34,6 +34,7 @@ Tests can also be found within:
 - src/zkp/utils.test.js
 
 ## Further Work
+- The current implementation saves user details within the state of the app but this would not suffice in a real world scenario. Intead, one possibility could be to save details of the commit on local storage after successfully registering it with the server. They would then be available next time the site was visited. Although, this solution would raise problems also.
 - Tests and documentation should be written for functions within the `Login` and `Register` components. These were not completed due the time constraints of the task.
 - This implementation of the code uses small numbers and performance suffers significantly when they become bigger. More time needs to be spent understanding where performance improvements can be made.
 - CI/CD implementations should be put in place to make simple, confident deployments to production. But due to time contraints, this was not implemented.
